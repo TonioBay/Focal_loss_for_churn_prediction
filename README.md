@@ -12,7 +12,7 @@ To solve this problem we can use different approaches such as assigning higher w
 
 ## Focal Loss
 
-[Focal Loss] (https://arxiv.org/abs/1708.02002)is a loss function designed to address class imbalance in tasks like object detection by focusing more on hard-to-classify examples. It modifies the standard cross-entropy loss by adding a scaling factor that reduces the loss contribution from well-classified examples, allowing the model to learn better from difficult cases.
+[Focal Loss](https://arxiv.org/abs/1708.02002) is a loss function designed to address class imbalance in tasks like object detection by focusing more on hard-to-classify examples. It modifies the standard cross-entropy loss by adding a scaling factor that reduces the loss contribution from well-classified examples, allowing the model to learn better from difficult cases.
 
 This loss function was implemented for the Logistic Regression model and the Feed Forwar NN  giving better results than the ML models from Skicit-Learn.
 
